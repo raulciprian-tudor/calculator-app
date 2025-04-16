@@ -69,7 +69,7 @@
         if (key === '=') return calculatorStore.calculate();
         if (key === '/') return calculatorStore.append('/')
         if (key === '←') return calculatorStore.display = calculatorStore.display.slice(0, -1)
-        if (key === '*') return calculatorStore.append('*') // replace visual symbol
+        if (key === '*') return calculatorStore.append('*')
         if (key === '-') return calculatorStore.append('-')
         if (key === '+') return calculatorStore.append('+')
         for (let i = 0; i < 10; i++) {
