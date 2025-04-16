@@ -1,0 +1,113 @@
+* {
+  user-select: none;
+}
+
+/* Primary Colors */
+/* Base green used for main UI components, such as buttons or key highlights */
+.bg-primary-custom {
+  background-color: #0a8754 !important;
+}
+.text-primary-custom {
+  color: #0a8754 !important;
+}
+
+/* Lighter variant used for hover or focused states on primary elements */
+.hover-bg-primary-light-custom {
+  transition: background-color 0.3s ease-in-out !important;
+  &:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #33af7c !important;
+  }
+}
+.text-primary-light-custom {
+  color: #33af7c !important;
+}
+
+/* Darker variant used for active or pressed states on primary elements */
+.active-bg-primary-dark-custom {
+  transition: background-color 0.3s ease-in-out !important;
+  &:active {
+    transform: scale(0.95);
+    cursor: pointer;
+    color: #fff;
+    background-color: #06714a !important;
+  }
+}
+.text-primary-dark-custom {
+  color: #06714a !important;
+}
+
+/* Accent Colors */
+/* Base accent color for emphasis (e.g., call-to-action buttons) */
+.bg-accent-custom {
+  background-color: #ffc107 !important;
+}
+.text-accent-custom {
+  color: #ffc107 !important;
+}
+
+/* Lighter accent variant for hover or focus states */
+.hover-bg-accent-light-custom {
+  transition: background-color 0.3s ease-in-out !important;
+  &:hover {
+    cursor: pointer;
+    background-color: #ffd54f !important;
+  }
+}
+.text-accent-light-custom {
+  color: #ffd54f !important;
+}
+
+/* Darker accent variant for active/pressed states */
+.active-bg-accent-dark-custom {
+  transition: background-color 0.3s ease-in-out !important;
+  &:active {
+    transform: scale(0.95);
+    cursor: pointer;
+    background-color: #ff8f00 !important;
+  }
+}
+.text-accent-dark-custom {
+  color: #ffa000 !important;
+}
+
+/* Neutral Colors */
+/* Light background color for the overall app interface */
+.bg-background-custom {
+  background-color: #f8f9fa !important;
+}
+
+/* Surface color for cards, panels, modals, etc. */
+.bg-surface-custom {
+  background-color: #ffffff !important;
+}
+.text-surface-custom {
+  color: #ffffff;
+}
+
+/* Default text color for high legibility on light backgrounds */
+.text-default-custom {
+  color: #212121 !important;
+}
+
+/* Optional: Border color classes using the palette */
+/* These can be applied to elements that need a border color defined */
+.border-primary-custom {
+  border-color: #0a8754 !important;
+}
+.border-primary-light-custom {
+  border-color: #33af7c !important;
+}
+.border-primary-dark-custom {
+  border-color: #06714a !important;
+}
+.border-accent-custom {
+  border-color: #ffc107 !important;
+}
+.border-accent-light-custom {
+  border-color: #ffd54f !important;
+}
+.border-accent-dark-custom {
+  border-color: #ffa000 !important;
+}
